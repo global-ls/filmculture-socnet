@@ -1,0 +1,61 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "../images/globals_logo_240.png",
+    "link": "http://globals.research.uoc.edu/",
+    "text": "Ainamar Clariana Rodagut; Alessio Cardillo; Ventsislav Ikoff"
+  },
+  "text": {
+    "more": "<strong>Description</strong><br><br>This network traces the film clubs that emerged between 1909 and 1959 in Ibero-America and the connections among them that I have been able to identify. <br>In order to visualize these connections, I have included not only the film clubs themselves but also other nodes that facilitated connections among them, including both human and non-human actors. <br>Non-human actors comprise journals, associations or organizations, and events that were linked to the film clubs displayed in the network. <br>The human actors represented in the network participated in the mentioned events, associations or organizations, and publications that were connected to the referred film clubs. <br>Due to the limited and scattered data available on the first Ibero-American film clubs, there are many film clubs without connections on the periphery of the network. <br>I have retained them to facilitate future research on the networks of Ibero-American film clubs during the first half of the twentieth century. <br>These disconnected nodes are included in the visualization to illustrate the lack of data available on this topic.<br><br>The network is re-constructed in the following way. We start from the focal nodes (film clubs) and expand with the events that they organised, co-organised or in which they participated, the organisations to which they had links (e.g., via sponsorship), and the people who were affiliated to the film clubs. <br>At the next level, we further expand the network with people and organisations related to the events and people from the previous level. <br>The following describes schematically the relations that can be found. <br><br> Film Club — Event — Person — Person <br>Film Club — Event — Person — Organisation — Person — Person <br>Film Club — Organisation <br>Film Club — Person — Person <br>Film Club — Person — Event — Organisation — Person <br>Film Club — Person — Event — Person <br>Film Club — Person — Journal — Person <br>Film Club — Person — Organisation — Organisation <br>Film Club — Person — Organisation — Person <br><br>The links between the different types of agents reflect the following connections: <br><br>Film Club — Event: connections between Film Clubs or Organisations and the events which they (co‑)organised, or in which they took part.<br>Film Club — Person: connection between a Film Club or Organisation and the people who are affiliated to or have a role in them.<br>Film Club — Organisation: connection between a Film Club and another Organisation when the two are linked somehow, e.g., via sponsorship, close collaboration or if one forms a part of the other.<br>Event — Person: a connection arises when people (co-)organise or take part in an event.<br>Person — Person: reflects connections of kinship, friendship or amorous relationship, or written correspondence.<br>Person — Journal: connections between people who write/collaborate in a magazine or journal, or who are part of its editorial board of the same journal.<br><br>For instance, the connection Film Club — Person — Event — Organisation — Person is to be interpreted as follows: Film Clubs, all people connected to the Film Clubs via affiliation, then all Events in which these same people took part, then all Organisations that (co‑)organised these Events and, finally, all people related to said Organisations.<br><br><strong>Data and sources:</strong><br><br>The data required to reconstruct this network is available in the following repository. <br>They are part of a larger and more detailed set of data generated during and for the purposes of the ERC project that funds the thesis linked to this network and most of it will be published upon the project’s conclusion. <br>In any case, all the sources from where I have gathered the data for building the network are referred to in the chapter 2.3 of the thesis where the network is analysed and the visualization is displayed. <br><br><strong>Authorship:</strong><br><br>This network has been created as part of the thesis entitled “Networks of Women in the first Ibero-American film clubs from 1909 to 1959” authored by Ainamar Clariana-Rodagut, and co-supervised by Diana Roig-Sanz and Malte Hagener. The thesis is the result of the PhD program “Society, Technology and Culture at the Open University of Catalonia”, and part of the PhD program “Media Studies” at Philipps Universität Marburg. This research is funded by the project Social Networks of the Past: Mapping Hispanic and Lusophone Literary Modernity, 1898-1959,” led by Diana-Roig-Sanz with the grant agreement ID: 803860.<br><br>This network visualization is authored by Ainamar Clariana-Rodagut and Ventsislav Ikoff.",
+    "intro": "A reconstructed network of Ibero-American Film Clubs and related actors, active between 1909 and 1959.",
+    "title": "Relations from Ibero-American Film Clubs between 1909 and 1959"
+  },
+  "legend": {
+    "edgeLabel": "Connection",
+    "colorLabel": "Node type",
+    "nodeLabel": "Person, organisation, publisher, magazine or event."
+  },
+  "nodeGroupLabels": {
+	"rgb(228,0,255)": "Film Clubs",
+	"rgb(0,245,212)": "Person (unknown gender)",
+	"rgb(33,158,188)": "Women",
+	"rgb(255,183,3)": "Men",
+	"rgb(184,190,221)": "Events",
+	"rgb(240,113,103)": "Organisations"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "gender",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

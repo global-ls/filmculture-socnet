@@ -14,7 +14,7 @@
   },
   "legend": {
     "edgeLabel": "Connection",
-    "colorLabel": "Node type",
+    "colorLabel": "Node type  <br> <div style=\"display:inline-block\"><div style=\"line-height:12px\"><div><div style=\"width:9px;height:9px; background:rgb(33,158,188);display:inline-block\"></div> Women</div></div><div style=\"line-height:12px\"><div><div style=\"width:9px;height:9px;background:rgb(255,183,3);display:inline-block\"></div> Men</div></div><div style=\"line-height:12px\"><div><div style=\"width:9px;height:9px;background:rgb(0,245,212);display:inline-block\"></div> Person (unknown gender)</div></div><div style=\"line-height:12px\"><div><div style=\"width:9px;height:9px;background:rgb(240,113,103);display:inline-block\"></div> Organisations</div></div><div style=\"line-height:12px\"><div><div style=\"width:9px;height:9px;background:rgb(184,190,221);display:inline-block\"></div> Events</div></div>"",
     "nodeLabel": "Person, organisation, publisher, magazine or event."
   },
   "nodeGroupLabels": {
